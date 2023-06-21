@@ -1,0 +1,16 @@
+version: "3.9"
+
+services: 
+
+  php:
+    # image: ulisescarreon/php8.0.3-apache-ready
+    build: .
+    restart: unless-stopped
+    volumes: 
+      - .:/var/www/html
+      - /var/log/apache2/app:/var/log/apache2/
+    ports:
+      - 127.0.0.1:8080:80
+
+
+
