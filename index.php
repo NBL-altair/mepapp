@@ -7,5 +7,7 @@
         <p><?php echo "Hello, World! (❁´◡`❁)"; ?></p>
 
         <p><?php echo "UwU TEST !!"; ?></p>
+
+        <p><?php echo "Test 2"; ?></p>
     </body>
 </html>
