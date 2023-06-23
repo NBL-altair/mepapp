@@ -4,12 +4,8 @@
     </head>
 
     <body>
-        <?php
-            echo "Hello, World! (❁´◡`❁)";
-        ?>
+        <p><?php echo "Hello, World! (❁´◡`❁)"; ?></p>
 
-        <?php
-            echo "UwU TEST !!";
-        ?>
+        <p><?php echo "UwU TEST !!"; ?></p>
     </body>
 </html>
