@@ -3,7 +3,7 @@
         <title>Hello World</title>
     </head>
 
-    <body>
+    <body style="background-color: #ECD5FD;">
         <p><?php echo "Hello, World! (❁´◡`❁)"; ?></p>
 
         <p><?php echo "UwU TEST !!"; ?></p>
