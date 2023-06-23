@@ -26,6 +26,7 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             key: ${{ secrets.PASSWORD }}
+            passphrase: ${{ secrets.PASSPHRASE }}
             script: |
               cd mepapp
               docker compose pull
