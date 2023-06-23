@@ -11,5 +11,7 @@
         <p><?php echo "Test 2"; ?></p>
 
         <p><?php echo "Test 3"; ?></p>
+
+        <p><?php echo "Test 4"; ?></p>
     </body>
 </html>
